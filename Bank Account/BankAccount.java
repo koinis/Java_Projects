@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 class BankAccount
 {
-	private String name;
-	private double balance = 0;
-	private ArrayList<String> transactionLog = new ArrayList<String>();
+	private String name;			//Owner name
+	private double balance = 0;		//The amount of the account
+	private ArrayList<String> transactionLog = new ArrayList<String>();		//List of transactions
 	
 	public BankAccount(String name) {
 		this.name = name;
